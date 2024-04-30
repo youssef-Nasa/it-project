@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--mainColor);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #6d0505;
+}
+/*html{
+    scroll-behavior: smooth;
+}*/
+
+.fix_nav {
+    height: fit-content;
+}
+li, a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #d6e6e6cb;
+    text-decoration: none;
+     
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    z-index: 3;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 100px;
+    /*cursor: pointer;*/
+    
+}
+
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+ 
+.nav_links a:hover {
+    background-color: #eb0909;
+     border-radius: 4px;
+}
+/* ///////////////////////////////////////////////////////////// */
+
+/* Start Banner */
+ .banner iframe{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 90%; 
+    border-radius: 16px;
+    border: black 3px solid;
+}
+/* End Banner */
+/* //////////////////////////////////////////////////////////////// */
+/* Start Clubs */
+.players {
+    background-color: #4747471c;
+    border-radius: 10px;
+}
+
+.players p{
+    color: white;
+    margin-left: 10%;
+    margin-bottom:  20px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.players h3{
+    color: white;
+    margin-left: 10%;
+    margin-bottom:  20px;
+}
+
+.players h2 {
+    margin: auto;
+    width: fit-content;
+    letter-spacing: 1.5px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin:auto; */
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+  
+
+.box {
+    background-color: rgba(105, 54, 61, 0.212);
+    border-radius: 50px;
+    margin-right: 10%;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: black solid 2px;
+}
+
+.box img {
+    margin: 5%;
+    width: 80px;
+}
+ #player:hover {
+    background-color: #eb0909;
+} 
+/* End Clubs */
+
+/* Start Footer */
+.footer{
+    padding: 30px 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* End Footer */
+ 
